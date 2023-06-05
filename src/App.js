@@ -34,7 +34,7 @@ function App() {
       });
     console.log(ind);
     if (ind) {
-      const indic = data.indexOf(ind) || 1;
+      const indic = data.indexOf(ind) || 0;
       setIndex(indic + 1);
     }
   };
